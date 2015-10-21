@@ -1,4 +1,4 @@
-SublimeLinter-contrib-standard
+SublimeLinter-contrib-webcli
 ================================
 
 [![Build Status](https://travis-ci.org/Flet/SublimeLinter-contrib-standard.svg?branch=master)](https://travis-ci.org/Flet/SublimeLinter-contrib-standard)
