@@ -13,12 +13,12 @@
 from SublimeLinter.lint import NodeLinter
 
 
-class Standard(NodeLinter):
+class WebcliLinter(NodeLinter):
 
     """Provides an interface to standard."""
 
     syntax = ('javascript', 'html', 'javascriptnext', 'javascript 6to5', 'javascript (babel)')
-    cmd = 'standard --stdin --verbose'
+    cmd = 'web-cli lint --stdin --verbose'
     version_args = '--version'
     version_re = r'(?P<version>\d+\.\d+\.\d+)'
     version_requirement = '>= 3.7.2'
