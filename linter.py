@@ -13,9 +13,9 @@
 from SublimeLinter.lint import NodeLinter
 
 
-class WebcliLinter(NodeLinter):
+class Webcli(NodeLinter):
 
-    """Provides an interface to standard."""
+    """Provides an interface to web-cli."""
 
     syntax = ('javascript', 'html', 'javascriptnext', 'javascript 6to5', 'javascript (babel)')
     cmd = 'web-cli lint --stdin --verbose'
